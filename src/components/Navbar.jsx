@@ -21,12 +21,12 @@ function Navbar() {
       </div>
       <div className="p-1 rounded-2xl bg-[#F3F4F6] flex gap-1">
         <button onClick={() => changeLanguage("uz")}
-          className={`py-2.5 px-3 rounded-2xl transition ${i18n.language === "uz" ? "bg-[#6467F2] text-white" : "text-black"}`}>
+          className={`py-2.5 px-3 rounded-2xl cursor-pointer transition ${i18n.language === "uz" ? "bg-[#6467F2] text-white" : "text-black"}`}>
           UZ
         </button>
         <button
           onClick={() => changeLanguage("en")}
-          className={`py-2.5 px-3 rounded-2xl transition ${i18n.language === "en" ? "bg-[#6467F2] text-white" : "text-black"}`}>
+          className={`py-2.5 px-3 rounded-2xl cursor-pointer transition ${i18n.language === "en" ? "bg-[#6467F2] text-white" : "text-black"}`}>
           EN
         </button>
       </div>
