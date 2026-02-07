@@ -20,21 +20,7 @@ function Hero() {
             <button className='bg-white rounded-2xl py-4 px-8 border-2 border-[#E5E7EB] cursor-pointer'>  <i className="fa-regular fa-comment"></i>  {t("hero.contactUs")}</button>
         </div>
         <div className='flex'>
-            <div className='text-center pr-8'>
-                <h2 className='text-[#030711] text-[24px] font-bold'>1,000+</h2>
-                <p>{t("hero.students")}</p>
-            </div>
-            <div className='text-center px-8 border-r-2 border-[#E5E7EB]  border-l-2 '>
-                <h2 className='text-[#030711] text-[24px] font-bold'>50+</h2>
-                <p>{t("hero.projects")}</p>
-            </div>
-            <div className='text-center pl-8'>
-                <h2 className='text-[#030711] text-[24px] font-bold'>4.9 <i className="fa-solid fa-star"></i></h2>
-                <p>{t("hero.rating")}</p>
-            </div>
-        </div>
-      </div>
-        <div className='relative w-full max-w-234 h-full max-h-132 z-10'>
+           -h-132 z-10'>
             <div className='flex z-20 top-25 absolute items-center gap-2 p-3 rounded-2xl bg-white w-fit'>
                 <div className='p-2.5 bg-[#8419e2] rounded-2xl'>⚛️</div>
                 <p className='text-[20px]'>React</p>
