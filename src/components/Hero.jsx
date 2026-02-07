@@ -1,37 +1,44 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import StudentImages from "../assets/img/StudentImg.png"
 
 
 function Hero() {
-    let {t, i18n} = useTranslation()
+    let {t} = useTranslation()
   return (
-    <section>
-      <div className='w-full max-w-161 '>
+    <section className='bg-[#F3F4F6]  pb-25 pt-45'>
+      <div className='container flex'>
+        <div className='w-full max-w-161'>
         <p className='bg-[#6467F21A] w-fit py-2 rounded-2xl font-medium mb-6 px-0.5 flex text-[14px] text-[#6467F2] gap-1'>🚀{t("hero.badge")}</p>
-        <h2
-  className="text-[60px] font-extrabold leading-13 bg-gradient-to-r mb-7 from-[#2d24c7] to-[#b360e2] bg-clip-text text-transparent ">
-  {t("hero.title")}
-</h2>
+        <h2 className="text-[60px] pb-4 font-extrabold leading-13 bg-linear-to-r mb-7 from-[#2d24c7] to-[#b360e2] bg-clip-text text-transparent ">
+          {t("hero.title")}
+        </h2>
 
-        <p>{t("hero.description")}</p>
-        <div>
-            <button> {t("hero.getStarted")} <i class="fa-solid fa-arrow-right"></i></button>
-            <button>  <i class="fa-regular fa-comment"></i>  {t("hero.contactUs")}</button>
+        <p className='text-[20px] text-[#6B7280] w-full max-w-146 mb-9'>{t("hero.description")}</p>
+        <div className='flex gap-4 mb-12'>
+            <button className=' inline-block  rounded-2xl py-4 px-8 text-white cursor-pointer bg-linear-to-r  from-[#6B64F1]  to-[#AF49EB]'>  {t("hero.getStarted")} <i className="fa-solid fa-arrow-right"></i></button>
+            <button className=' rounded-2xl py-4 px-8 border-2 border-[#E5E7EB] cursor-pointer'>  <i className="fa-regular fa-comment"></i>  {t("hero.contactUs")}</button>
         </div>
-        <div>
-            <div>
-                <h2>1,000+</h2>
+        <div className='flex'>
+            <div className='text-center pr-8'>
+                <h2 className='text-[#030711] text-[24px] font-bold'>1,000+</h2>
                 <p>{t("hero.students")}</p>
             </div>
-            <div>
-                <h2>50+</h2>
+            <div className='text-center px-8 border-r-2 border-[#E5E7EB]  border-l-2 '>
+                <h2 className='text-[#030711] text-[24px] font-bold'>50+</h2>
                 <p>{t("hero.projects")}</p>
             </div>
-            <div>
-                <h2>4.9 <i class="fa-solid fa-star"></i></h2>
+            <div className='text-center pl-8'>
+                <h2 className='text-[#030711] text-[24px] font-bold'>4.9 <i className="fa-solid fa-star"></i></h2>
                 <p>{t("hero.rating")}</p>
             </div>
         </div>
+      </div>
+      <div>
+        <div>
+            <img src={StudentImages} alt="" />
+        </div>
+      </div>
       </div>
     </section>
   );

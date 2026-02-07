@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 function App() {
   return (
     <>
-      <header className='container'>
+      <header>
         <Navbar/>
         <Hero/>
       </header>
