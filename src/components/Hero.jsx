@@ -43,6 +43,7 @@ function Hero() {
             <div className='flex z-20 bottom-25 absolute right-0 items-center gap-2 p-3 rounded-2xl bg-white w-fit'>
                 <div className='p-2.5 bg-[#0da392] rounded-2xl'>🌐</div>
                 <p className='text-[20px]'>i18n</p>
+                
             </div>
         </div>
       </div>
