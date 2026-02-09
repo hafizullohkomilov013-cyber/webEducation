@@ -7,7 +7,7 @@ import en from "./locales/en.json"
 
 i18next.use(initReactI18next).init({
     resources:{
-        uz:{ translation : uz},
+        uz:{ translation : uz}, 
         en:{ translation : en},
     },
     lng: localStorage.getItem("lang") || "uz",

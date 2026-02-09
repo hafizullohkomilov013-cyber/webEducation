@@ -15,9 +15,9 @@ function Hero() {
         </h2>
 
         <p className='text-[20px] text-[#6B7280] w-full max-w-146 mb-9'>{t("hero.description")}</p>
-        <div className='flex gap-4 mb-12'>
-            <button className=' inline-block  rounded-2xl py-4 px-8 text-white cursor-pointer bg-linear-to-r  from-[#6B64F1]  to-[#AF49EB]'>  {t("hero.getStarted")} <i className="fa-solid fa-arrow-right"></i></button>
-            <button className='bg-white rounded-2xl py-4 px-8 border-2 border-[#E5E7EB] cursor-pointer'>  <i className="fa-regular fa-comment"></i>  {t("hero.contactUs")}</button>
+        <div className='flex flex-col sm:flex-row w-full justify-center items-center gap-4 mb-12'>
+            <button className=' w-full inline-block  rounded-2xl py-4 px-8 text-white cursor-pointer bg-linear-to-r  from-[#6B64F1]  to-[#AF49EB]'>  {t("hero.getStarted")} <i className="fa-solid fa-arrow-right"></i></button>
+            <button className='w-full bg-white rounded-2xl py-4 px-8 border-2 border-[#E5E7EB] cursor-pointer'>  <i className="fa-regular fa-comment"></i>  {t("hero.contactUs")}</button>
         </div>
         <div className='flex'>
             <div className='text-center pr-8'>

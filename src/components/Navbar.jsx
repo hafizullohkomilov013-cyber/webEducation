@@ -12,7 +12,7 @@ function Navbar() {
   }
   return (
     <section className=" bg-white/50   fixed right-0 left-0 backdrop-blur-md">
-      <nav className="flex container justify-between items-center py-3.5">
+      <nav className="flex z-40  container justify-between items-center py-3.5">
         <a href="#">
           <img src={Logo} alt="logo" />
         </a>
