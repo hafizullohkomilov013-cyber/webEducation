@@ -31,7 +31,7 @@ function Navbar() {
             <button
               onClick={() => changeLanguage("en")}
               className={`py-2.5 px-3 rounded-2xl cursor-pointer transition ${i18n.language === "en" ? "bg-[#6467F2] text-white" : "text-black"}`}
-            >
+              >
               EN
             </button>
           </div>
