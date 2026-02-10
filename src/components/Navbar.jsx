@@ -28,12 +28,6 @@ function Navbar() {
             >
               UZ
             </button>
-            <button
-              onClick={() => changeLanguage("en")}
-              className={`py-2.5 px-3 rounded-2xl cursor-pointer transition ${i18n.language === "en" ? "bg-[#6467F2] text-white" : "text-black"}`}
-              >
-              EN
-            </button>
           </div>
           <div className="flex md:hidden">
             <i className=" text-3xl cursor-pointer   fa-solid fa-bars"></i>
