@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import SkilsCard from './SkilsCard';
 
 function WorldSkils() {
     let{t} = useTranslation()
@@ -14,6 +15,9 @@ function WorldSkils() {
           <p className='w-full max-w-162.5 text-center text-[#6B7280] text-[18px]'>{t("skills.description")}</p>
         </div>
         <div></div>
+      </div>
+      <div>
+        <SkilsCard/>
       </div>
     </section>
   );
