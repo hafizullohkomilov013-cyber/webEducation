@@ -59,5 +59,11 @@
       "messagePlaceholder": "Tell us what you'd like to learn...",
       "button": "Send Message"
     }
+  },
+  "footer": {
+    "brand": "WebEducation",
+    "copyright": "© 2026 Web Education. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
   }
 }

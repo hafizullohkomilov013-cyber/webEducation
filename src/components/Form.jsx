@@ -8,7 +8,7 @@ function Form() {
       <div className="container">
         <div className="flex mb-12 flex-col justify-center items-center text-center">
           <p className="text-[#6467F2] bg-[#6467F21A] py-2 mb-4 px-3.5 rounded-2xl">{t("contact.badge")}</p>
-          <h2 className='text-[36px] font-bold mb-4.5'>{t("contact.title")}</h2>
+          <h2 className='text-[30px] md:text-[36px] font-bold mb-4.5'>{t("contact.title")}</h2>
           <p className='text-[#6B7280] text-[18px]'>{t("contact.description")}</p>
         </div>
         <form className='border-2 m-auto w-full max-w-lg p-8.5 rounded-2xl border-[#E5E7EB]'>

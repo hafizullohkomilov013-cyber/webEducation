@@ -59,5 +59,11 @@
       "messagePlaceholder": "Nimani o‘rganmoqchi ekaningizni yozing...",
       "button": "Xabar Yuborish"
     }
+  },
+  "footer": {
+    "brand": "WebEducation",
+    "copyright": "© 2026 Web Education. Barcha huquqlar himoyalangan.",
+    "privacy": "Maxfiylik siyosati",
+    "terms": "Foydalanish shartlari"
   }
 }
