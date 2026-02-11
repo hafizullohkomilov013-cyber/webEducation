@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import WorldSkils from './components/WorldSkils'
+import Form from './components/Form'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main>
         <Hero/>
         <WorldSkils/>
+        <Form/>
       </main>
     </>
   )

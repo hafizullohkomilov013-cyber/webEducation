@@ -12,11 +12,12 @@ function SkilsCard() {
         {skillsData.map((item) => (
           <div
             key={item.id}
-            className="w-full min-w-50 bg-white rounded-2xl p-6 shadow-sm"
+            className="w-full flex flex-col justify-between items-start min-w-50 bg-white rounded-2xl p-6 shadow-sm"
           >
-            <img src={t(item.icon)} alt="" />
-            <h2>{t(item.titleKey)}</h2>
-            <p>{t(item.descKey)}</p>
+            <img className='mb-6' src={t(item.icon)} alt="" />
+            <h2 className='text-[20px] font-bold mb-4.5'>{t(item.titleKey)}</h2>
+            <p className='text-[#6B7280] text-[20px] mb-7.5'>{t(item.descKey)}</p>
+            <button className='text-[#6467F2]  flex justify-center items-center gap-2'><a className='text-[#6467F2] text-[18px] inline-flex' href="#">{t(item.linkKey)}</a><i className="fa-solid fa-arrow-right"></i></button>
           </div>
         ))}
       </div>
