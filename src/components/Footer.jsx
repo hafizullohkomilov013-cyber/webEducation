@@ -18,9 +18,9 @@ function Footer() {
           <h2>{t("footer.terms")}</h2>
         </div>
         <div className="flex gap-4">
-          <img src={gitHup} alt="" />
-          <img src={twitter} alt="" />
-          <img src={linkedIn} alt="" />
+          <img className="cursor-pointer" src={gitHup} alt="" />
+          <img className="cursor-pointer" src={twitter} alt="" />
+          <img className="cursor-pointer" src={linkedIn} alt="" />
         </div>
       </div>
     </section>
