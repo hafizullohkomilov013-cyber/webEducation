@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 function Form() {
     const [t] = useTranslation()
   return (
-    <section className="py-24">
+    <section id='contact' className="py-24">
       <div className="container">
         <div className="flex mb-12 flex-col justify-center items-center text-center">
           <p className="text-[#6467F2] bg-[#6467F21A] py-2 mb-4 px-3.5 rounded-2xl">{t("contact.badge")}</p>

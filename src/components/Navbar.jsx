@@ -16,9 +16,9 @@ function Navbar() {
         <a href="#">
           <img src={Logo} alt="logo" />
         </a>
-        <div className="hidden md:flex gap-5 color-[#6B7280] text-4">
-          <a href="#">{t("navbar.features")}</a>
-          <a href="#">{t("navbar.contact")}</a>
+        <div className="flex gap-5 color-[#6B7280] text-4">
+          <a href="#features">{t("navbar.features")}</a>
+          <a href="#contact">{t("navbar.contact")}</a>
         </div>
         <div className="flex justify-center gap-5 items-center">
           <div className="p-1 rounded-2xl bg-[#F3F4F6] flex gap-1">
@@ -34,9 +34,6 @@ function Navbar() {
               >
               EN
             </button>
-          </div>
-          <div className="flex md:hidden">
-            <i className=" text-3xl cursor-pointer   fa-solid fa-bars"></i>
           </div>
         </div>
       </nav>

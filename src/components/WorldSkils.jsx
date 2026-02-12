@@ -5,7 +5,7 @@ import SkilsCard from './SkilsCard';
 function WorldSkils() {
     let{t} = useTranslation()
   return (
-    <section className="py-24 bg-[#e9e8f2]">
+    <section id='features' className="py-24 bg-[#e9e8f2]">
       <div className="container">
         <div className='flex mb-18 flex-col justify-center items-center'>
           <p className='bg-[#14B8A51A] mb-4 w-fit px-3 py-2 rounded-2xl text-[#14B8A5]'>{t("skills.badge")}</p>
